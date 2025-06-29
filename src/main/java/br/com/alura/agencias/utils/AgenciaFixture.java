@@ -13,7 +13,7 @@ public class AgenciaFixture {
 
 	public static Agencia criarAgencia() {
 		Endereco endereco = new Endereco(1, "Rua de teste", "Logradouro de teste", "Complemento de teste", 1);
-		return new Agencia(1, "Agencia Teste", "Razao social da Agencia Teste", "123", endereco);
+		return new Agencia(1L, "Agencia Teste", "Razao social da Agencia Teste", "123", endereco);
 	}
 
 }
